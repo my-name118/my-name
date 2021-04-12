@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Информационная безопасность</title>
+		<link rel="stylesheet" href="css\css.css" />
+		<meta http-equiv="Content-type" content="myproject\Notepad++\сайт.html-Notepad++;charset=UTF-8">
+	</head>
+	<body>
+	<header class="headd1">Информационная безопасность</header>
+		<nav class="menu">
+		<ul class="uull">Темы
+			<li><a href="paragraph_1.html">ИНФОРМАЦИОННАЯ БЕЗОПАСНОСТЬ</a></li>
+			<li><a href="paragraph_2.html">ВРЕДОНОСНЫЕ ПРОГРАММЫ</a></li>
+			<li><a href="paragraph_3.html">ЗАЩИТА ОТ ВРЕДОНОСНЫХ ПРОГРАММ</a></li>
+			<li><a href="paragraph_4.html">ШИФРОВАНИЕ</a></li>
+			<li><a href="paragraph_5.html">БЕЗОПАСНОСТЬ В ИНТЕРНЕТЕ</a></li>
+		</ul>
+		<ul class="uull">Задания
+			<li><a href="exercise_1.html">Задания к теме "ИНФОРМАЦИОННАЯ БЕЗОПАСНОСТЬ"</a></li>
+			<li><a href="exercise_2.html">Задания к теме "ВРЕДОНОСНЫЕ ПРОГРАММЫ"</a></li>
+			<li><a href="exercise_3.html">Задания к теме "ЗАЩИТА ОТ ВРЕДОНОСНЫХ ПРОГРАММ"</a></li>
+			<li><a href="exercise_4.html">Задания к теме "ШИФРОВАНИЕ"</a></li>
+			<li><a href="exercise_5.html">Задания к теме "БЕЗОПАСНОСТЬ В ИНТЕРНЕТЕ"</a></li>
+		</ul>
+		
+		</nav>
+		
+		<main>
+		
+		<h1>Задания к теме "БЕЗОПАСНОСТЬ В ИНТЕРНЕТЕ"</h1>
+		
+		<div></div>
+		
+		<div>1.Какие меры безопасности нужно соблюдать при работе в Интернете?</div>
+		<div><input type="checkbox" name="name47" value="value86" id="rd1"/>использовать антивирусную программу-монитор</div>
+		<div><input type="checkbox" name="name48" value="value87" id="rd2"/>не открывать электронные письма от неизвестных пользователей</div>
+		<div><input type="checkbox" name="name49" value="value88" id="rd3"/>отвечать на письма-спам</div>
+		<div><input type="checkbox" name="name50" value="value89" id="rd4"/>придумывать простые пароли</div>
+		<div>2.Что такое фишинг?</div>
+		<div><input type="radio" name="name_14" value="value90" id="rd_1"/>разновидность антивирусов</div>
+		<div><input type="radio" name="name_14" value="value91" id="rd_2"/>выманивание паролей</div>
+		<div><input type="radio" name="name_14" value="value92" id="rd_3"/>платёжные системы</div>
+		<br />
+		<div>3.Оптимальная длина пароля</div>
+		<div><input type="radio" name="name_15" value="value93" id="rd_4"/>менее 6-7 символов</div>
+		<div><input type="radio" name="name_15" value="value94" id="rd_5"/>не менее 6-7 символов</div>
+		<div><input type="radio" name="name_15" value="value95" id="rd_6"/>более 20 символов</div>
+		<div><input type="radio" name="name_15" value="value96" id="rd_7"/>4-5 символов</div>
+		<br />
+		<div>4.На многих сайтах предусмотрена возможность восстановления пароля по секретному вопросу. Какой вопрос лучше использовать?</div>
+		<div><input type="radio" name="name_16" value="value97" id="rd_8"/>"Как звали вашу первую собаку?"</div>
+		<div><input type="radio" name="name_16" value="value98" id="rd_9"/>"Какое ваше любимое блюдо?"</div>
+		<div><input type="radio" name="name_16" value="value99" id="rd_10"/>"Какая кличка, порода и цвет вашего питомца?"</div>
+		<div><input type="radio" name="name_16" value="value100" id="rd_11"/>"какова девичья фамилия вашей матери?"</div>
+		<br />
+		<div>5.Какой протокол необходимо использовать для обеспечения безопасных денежных расчётов через Интернет?</div>
+		<div><input type="radio" name="name_17" value="value101" id="rd_12"/>HTTPS</div>
+		<div><input type="radio" name="name_17" value="value102" id="rd_13"/>HTTP</div>
+		<br />
+		<div>6.Какую информацию нельзя сообщать незнакомцам в Интернете или выставлять в "профиле" социальных сетей?</div>
+		<div><input type="checkbox" name="name51" value="value103" id="rd_14"/>где вы живёте</div>
+		<div><input type="checkbox" name="name52" value="value104" id="rd_15"/>сколько зарабатывают ваши родители</div>
+		<div><input type="checkbox" name="name53" value="value105" id="rd_16"/>личную информацию (адрес, номер телефона)</div>
+		<div><input type="checkbox" name="name54" value="value106" id="rd_17"/>фотографии вашего питомца</div>
+		<br />
+		<br />
+		
+		<p><button type="submit" class="otvet5" id="otvet5" onclick="proverit5()";>Ответить</button><p/>
+		</br>
+		</main>
+		<footer class="foot1">Все материалы взяты из учебника информатики 10 класс</footer>
+		<script>
+		
+		function proverit5() {
+		var inp1,inp2,inp3,inp4,inp5,inp6,inp7,inp8,inp9;
+		inp1=document.getElementById('rd1');
+		inp2=document.getElementById('rd2');
+		inp3=document.getElementById('rd_2');
+		inp4=document.getElementById('rd_5');
+		inp5=document.getElementById('rd_10');
+		inp6=document.getElementById('rd_12');
+		inp7=document.getElementById('rd_14');
+		inp8=document.getElementById('rd_15');
+		inp9=document.getElementById('rd_16');
+		
+		if (inp1.checked && inp2.checked) {
+		document.write('<ul style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 30px">1. Вы ответили верно. Правильный ответ:');
+		document.write("<br/><br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 20px">Какие меры безопасности нужно соблюдать при работе в Интернете?<ul style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 20px">');
+		document.write("<br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 20px">использовать антивирусную программу-монитор</li>');
+		document.write("<br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 20px">не открывать электронные письма от неизвестных пользователей</li></ul></li></ul>');
+		} else if (inp1.checked || inp2.checked) {
+		document.write('<ul style="background: linear-gradient(to right, rgba(253,249,215,1) 0%,rgba(240,217,42,1) 100%); font-size: 30px">1. Ответ частично верный. Правильный ответ:');
+		document.write("<br/><br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(253,249,215,1) 0%,rgba(240,217,42,1) 100%); font-size: 20px">Какие меры безопасности нужно соблюдать при работе в Интернете?<ul style="background: linear-gradient(to right, rgba(253,249,215,1) 0%,rgba(240,217,42,1) 100%); font-size: 20px">');
+		document.write("<br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(253,249,215,1) 0%,rgba(240,217,42,1) 100%); font-size: 20px">использовать антивирусную программу-монитор</li>');
+		document.write("<br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(253,249,215,1) 0%,rgba(240,217,42,1) 100%); font-size: 20px">не открывать электронные письма от неизвестных пользователей</li></ul></li></ul>');
+		} else {
+		document.write('<ul style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 30px">1. Вы ответили неверно. Правильный ответ:');
+		document.write("<br/><br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 20px">Какие меры безопасности нужно соблюдать при работе в Интернете?<ul style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 20px">');
+		document.write("<br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 20px">использовать антивирусную программу-монитор</li>');
+		document.write("<br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 20px">не открывать электронные письма от неизвестных пользователей</li></ul></li></ul>');
+		};
+		
+		document.write("<br/><br/><br/><br/><br/>");
+		
+		if (inp3.checked) {
+		document.write('<ul style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 30px">2. Вы ответили верно. Правильный ответ:');
+		document.write("<br/><br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 20px">Что такое фишинг?<ul style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 20px">');
+		document.write("<br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 20px">выманивание паролей</li></ul></li></ul>');
+		} else {
+		document.write('<ul style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 30px">2. Вы ответили неверно. Правильный ответ:');
+		document.write("<br/><br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 20px">Что такое фишинг?<ul style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 20px">');
+		document.write("<br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 20px">выманивание паролей</li></ul></li></ul>');
+		};
+		
+		document.write("<br/><br/><br/><br/><br/>");
+		
+		if (inp4.checked) {
+		document.write('<ul style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 30px">3. Вы ответили верно. Правильный ответ:');
+		document.write("<br/><br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 20px">Оптимальная длина пароля не менее 6-7 символов</li></ul>');
+		} else {
+		document.write('<ul style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 30px">3. Вы ответили неверно. Правильный ответ:');
+		document.write("<br/><br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 20px">Оптимальная длина пароля не менее 6-7 символов</li></ul>');
+		};
+		
+		document.write("<br/><br/><br/><br/><br/>");
+		
+		if (inp5.checked) {
+		document.write('<ul style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 30px">4. Вы ответили верно. Правильный ответ:');
+		document.write("<br/><br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 20px">На многих сайтах предусмотрена возможность восстановления пароля по секретному вопросу. Какой вопрос лучше использовать?<ul style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 20px">');
+		document.write("<br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 20px">"Какая кличка, порода и цвет вашего питомца?"</li></ul></li></ul>');
+		} else {
+		document.write('<ul style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 30px">4. Вы ответили неверно. Правильный ответ:');
+		document.write("<br/><br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 20px">На многих сайтах предусмотрена возможность восстановления пароля по секретному вопросу. Какой вопрос лучше использовать?<ul style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 20px">');
+		document.write("<br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 20px">"Какая кличка, порода и цвет вашего питомца?"</li></ul></li></ul>');
+		};
+		
+		document.write("<br/><br/><br/><br/><br/>");
+		
+		if (inp6.checked) {
+		document.write('<ul style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 30px">5. Вы ответили верно. Правильный ответ:');
+		document.write("<br/><br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 20px">Какой протокол необходимо использовать для обеспечения безопасных денежных расчётов через Интернет?<ul style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 20px">');
+		document.write("<br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 20px">HTTPS</li></ul></li></ul>');
+		} else {
+		document.write('<ul style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 30px">5. Вы ответили неверно. Правильный ответ:');
+		document.write("<br/><br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 20px">Какой протокол необходимо использовать для обеспечения безопасных денежных расчётов через Интернет?<ul style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 20px">');
+		document.write("<br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 20px">HTTPS</li></ul></li></ul>');
+		};
+		
+		document.write("<br/><br/><br/><br/><br/>");
+		
+		if (inp7.checked && inp8.checked && inp9.checked) {
+		document.write('<ul style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 30px">6. Вы ответили верно. Правильный ответ:');
+		document.write("<br/><br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 20px">Какую информацию нельзя сообщать незнакомцам в Интернете или выставлять в "профиле" социальных сетей?<ul style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 20px">');
+		document.write("<br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 20px">где вы живёте</li>');
+		document.write("<br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 20px">сколько зарабатывают ваши родители</li>');
+		document.write("<br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 20px">личную информацию (адрес, номер телефона)</li></ul></li></ul>');
+		} else if (inp7.checked || inp8.checked || inp9.checked) {
+		document.write('<ul style="background: linear-gradient(to right, rgba(253,249,215,1) 0%,rgba(240,217,42,1) 100%); font-size: 30px">6. Ответ частично верный. Правильный ответ:');
+		document.write("<br/><br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(253,249,215,1) 0%,rgba(240,217,42,1) 100%); font-size: 20px">Какую информацию нельзя сообщать незнакомцам в Интернете или выставлять в "профиле" социальных сетей?<ul style="background: linear-gradient(to right, rgba(253,249,215,1) 0%,rgba(240,217,42,1) 100%); font-size: 20px">');
+		document.write("<br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(253,249,215,1) 0%,rgba(240,217,42,1) 100%); font-size: 20px">где вы живёте</li>');
+		document.write("<br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(253,249,215,1) 0%,rgba(240,217,42,1) 100%); font-size: 20px">сколько зарабатывают ваши родители</li>');
+		document.write("<br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(253,249,215,1) 0%,rgba(240,217,42,1) 100%); font-size: 20px">личную информацию (адрес, номер телефона)</li></ul></li></ul>');
+		} else {
+		document.write('<ul style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 30px">6. Вы ответили неверно. Правильный ответ:');
+		document.write("<br/><br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 20px">Какую информацию нельзя сообщать незнакомцам в Интернете или выставлять в "профиле" социальных сетей?<ul style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 20px">');
+		document.write("<br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 20px">где вы живёте</li>');
+		document.write("<br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 20px">сколько зарабатывают ваши родители</li>');
+		document.write("<br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 20px">личную информацию (адрес, номер телефона)</li></ul></li></ul>');
+		};
+		
+		
+		
+		}
+		
+		
+		
+		
+		</script>
+		
+		
+		
+	</body>
+</html>

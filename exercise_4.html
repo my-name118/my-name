@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Информационная безопасность</title>
+		<link rel="stylesheet" href="css\css.css" />
+		<meta http-equiv="Content-type" content="myproject\Notepad++\сайт.html-Notepad++;charset=UTF-8">
+	</head>
+	<body>
+	<header class="headd1">Информационная безопасность</header>
+		<nav class="menu">
+		<ul class="uull">Темы
+			<li><a href="paragraph_1.html">ИНФОРМАЦИОННАЯ БЕЗОПАСНОСТЬ</a></li>
+			<li><a href="paragraph_2.html">ВРЕДОНОСНЫЕ ПРОГРАММЫ</a></li>
+			<li><a href="paragraph_3.html">ЗАЩИТА ОТ ВРЕДОНОСНЫХ ПРОГРАММ</a></li>
+			<li><a href="paragraph_4.html">ШИФРОВАНИЕ</a></li>
+			<li><a href="paragraph_5.html">БЕЗОПАСНОСТЬ В ИНТЕРНЕТЕ</a></li>
+		</ul>
+		<ul class="uull">Задания
+			<li><a href="exercise_1.html">Задания к теме "ИНФОРМАЦИОННАЯ БЕЗОПАСНОСТЬ"</a></li>
+			<li><a href="exercise_2.html">Задания к теме "ВРЕДОНОСНЫЕ ПРОГРАММЫ"</a></li>
+			<li><a href="exercise_3.html">Задания к теме "ЗАЩИТА ОТ ВРЕДОНОСНЫХ ПРОГРАММ"</a></li>
+			<li><a href="exercise_4.html">Задания к теме "ШИФРОВАНИЕ"</a></li>
+			<li><a href="exercise_5.html">Задания к теме "БЕЗОПАСНОСТЬ В ИНТЕРНЕТЕ"</a></li>
+		</ul>
+		
+		</nav>
+		
+		<main>
+		
+		<h1>Задания к теме "ШИФРОВАНИЕ"</h1>
+		
+		<div></div>
+		
+		<div>1.Чем различаются понятия "шифрование" и "кодирование"?</div>
+		<div><input type="radio" name="name_10" value="value71" id="rad_1"/>при шифровании, в отличие от кодирования, для восстановления сообщения достаточно знать только алгоритм шифрования</div>
+		<div><input type="radio" name="name_10" value="value72" id="rad_2"/>ключ шифрования может быть известен всем, но неизвестен его алгоритм, без которого сообщение невозможно расшифровать</div>
+		<div><input type="radio" name="name_10" value="value73" id="rad_3"/>алгоритм шифрования известен всем, но неизвестен его ключ</div>
+		<br />
+		<div>2.Какой алгоритм считается криптостойким?</div>
+		<div><input type="checkbox" name="name43" value="value74" id="rad1"/>требует от противника недостижимого объёма перехваченных сообщений</div>
+		<div><input type="checkbox" name="name44" value="value75" id="rad2"/>требует от противника такого времени, по истечении которого защищённая информация будет уже не актуальна</div>
+		<div><input type="checkbox" name="name45" value="value76" id="rad3"/>требует от противника знания одного только алгоритма шифрования</div>
+		<div><input type="checkbox" name="name46" value="value77" id="rad4"/>требует от противника недостижимых вычислительных ресурсов</div>
+		<br />
+		<div>3.Криптография – это</div>
+		<div><input type="radio" name="name_11" value="value78" id="rad_4"/>наука о методах и способах вскрытия шифров</div>
+		<div><input type="radio" name="name_11" value="value79" id="rad_5"/>наука о способах шифрования информации</div>
+		<br />
+		<div>4.Криптоанализ – это</div>
+		<div><input type="radio" name="name_12" value="value80" id="rad_6"/>наука о методах и способах вскрытия шифров</div>
+		<div><input type="radio" name="name_12" value="value81" id="rad_7"/>наука о способах шифрования информации</div>
+		<br />
+		<div>5.Какой пароль считается надёжным?</div>
+		<div><input type="radio" name="name_13" value="value82" id="rad_8"/>A05PH115Nnz937F</div>
+		<div><input type="radio" name="name_13" value="value83" id="rad_9"/>qwerty</div>
+		<div><input type="radio" name="name_13" value="value84" id="rad_10"/>12345</div>
+		<div><input type="radio" name="name_13" value="value85" id="rad_11"/>2003</div>
+		<br />
+		<br />
+		
+		<p><button type="submit" class="otvet4" id="otvet4" onclick="proverit4()";>Ответить</button><p/>
+		</br>
+		</main>
+		<footer class="foot1">Все материалы взяты из учебника информатики 10 класс</footer>
+		<script>
+		
+		function proverit4() {
+		var radi1,radi2,radi3,radi4,radi5,radi6,radi7;
+		radi1=document.getElementById('rad_3');
+		radi2=document.getElementById('rad1');
+		radi3=document.getElementById('rad2');
+		radi4=document.getElementById('rad4');
+		radi5=document.getElementById('rad_5');
+		radi6=document.getElementById('rad_6');
+		radi7=document.getElementById('rad_8');
+		
+		if (radi1.checked) {
+		document.write('<ul style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 30px">1. Вы ответили верно. Правильный ответ:');
+		document.write("<br/><br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 20px">Чем различаются понятия "шифрование" и "кодирование"?<ul style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 20px">');
+		document.write("<br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 20px">алгоритм шифрования известен всем, но неизвестен его ключ</li></ul></li></ul>');
+		} else {
+		document.write('<ul style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 30px">1. Вы ответили неверно. Правильный ответ:');
+		document.write("<br/><br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 20px">Чем различаются понятия "шифрование" и "кодирование"?<ul style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 20px">');
+		document.write("<br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 20px">алгоритм шифрования известен всем, но неизвестен его ключ</li></ul></li></ul>');
+		};
+		
+		document.write("<br/><br/><br/><br/><br/>");
+		
+		if (radi2.checked && radi3.checked && radi4.checked) {
+		document.write('<ul style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 30px">2. Вы ответили верно. Правильный ответ:');
+		document.write("<br/><br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 20px">Какой алгоритм считается криптостойким?<ul style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 20px">');
+		document.write("<br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 20px">требует от противника недостижимого объёма перехваченных сообщений</li>');
+		document.write("<br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 20px">требует от противника такого времени, по истечении которого защищённая информация будет уже не актуальна</li>');
+		document.write("<br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 20px">требует от противника недостижимых вычислительных ресурсов</li></ul></li></ul>');
+		} else if (radi2.checked || radi3.checked || radi4.checked) {
+		document.write('<ul style="background: linear-gradient(to right, rgba(253,249,215,1) 0%,rgba(240,217,42,1) 100%); font-size: 30px">2. Ответ частично верный. Правильный ответ:');
+		document.write("<br/><br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(253,249,215,1) 0%,rgba(240,217,42,1) 100%); font-size: 20px">Какой алгоритм считается криптостойким? <ul style="background: linear-gradient(to right, rgba(253,249,215,1) 0%,rgba(240,217,42,1) 100%); font-size: 20px">');
+		document.write("<br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(253,249,215,1) 0%,rgba(240,217,42,1) 100%); font-size: 20px">требует от противника недостижимого объёма перехваченных сообщений</li>');
+		document.write("<br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(253,249,215,1) 0%,rgba(240,217,42,1) 100%); font-size: 20px">требует от противника такого времени, по истечении которого защищённая информация будет уже не актуальна</li>');
+		document.write("<br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(253,249,215,1) 0%,rgba(240,217,42,1) 100%); font-size: 20px">требует от противника недостижимых вычислительных ресурсов</li></ul></li></ul>');
+		} else {
+		document.write('<ul style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 30px">2. Вы ответили неверно. Правильный ответ:');
+		document.write("<br/><br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 20px">Какой алгоритм считается криптостойким?<ul style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 20px">');
+		document.write("<br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 20px">требует от противника недостижимого объёма перехваченных сообщений</li>');
+		document.write("<br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 20px">требует от противника такого времени, по истечении которого защищённая информация будет уже не актуальна</li>');
+		document.write("<br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 20px">требует от противника недостижимых вычислительных ресурсов</li></ul></li></ul>');
+		};
+		
+		document.write("<br/><br/><br/><br/><br/>");
+		
+		if (radi5.checked) {
+		document.write('<ul style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 30px">3. Вы ответили верно. Правильный ответ:');
+		document.write("<br/><br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 20px">Криптография – это наука о способах шифрования информации</li></ul>');
+		} else {
+		document.write('<ul style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 30px">3. Вы ответили неверно. Правильный ответ:');
+		document.write("<br/><br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 20px">Криптография – это наука о способах шифрования информации</li></ul>');
+		};
+		
+		document.write("<br/><br/><br/><br/><br/>");
+		
+		if (radi6.checked) {
+		document.write('<ul style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 30px">4. Вы ответили верно. Правильный ответ:');
+		document.write("<br/><br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 20px">Криптоанализ – это наука о методах и способах вскрытия шифров</li></ul>');
+		} else {
+		document.write('<ul style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 30px">4. Вы ответили неверно. Правильный ответ:');
+		document.write("<br/><br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 20px">Криптоанализ – это наука о методах и способах вскрытия шифров</li></ul>');
+		};
+		
+		document.write("<br/><br/><br/><br/><br/>");
+		
+		if (radi7.checked) {
+		document.write('<ul style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 30px">5. Вы ответили верно. Правильный ответ:');
+		document.write("<br/><br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 20px">Какой пароль считается надёжным?<ul style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 20px">');
+		document.write("<br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 20px">A05PH115Nnz937F</li></ul></li></ul>');
+		} else {
+		document.write('<ul style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 30px">5. Вы ответили неверно. Правильный ответ:');
+		document.write("<br/><br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 20px">Какой пароль считается надёжным?<ul style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 20px">');
+		document.write("<br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 20px">A05PH115Nnz937F</li></ul></li></ul>');
+		};
+		
+		
+		
+		}
+		
+		
+		</script>
+		
+		
+		
+	</body>
+</html>

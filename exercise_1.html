@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Информационная безопасность</title>
+		<link rel="stylesheet" href="css\css.css" />
+		<meta http-equiv="Content-type" content="myproject\Notepad++\сайт.html-Notepad++;charset=UTF-8">
+	</head>
+	<body>
+	<header class="headd1">Информационная безопасность</header>
+		<nav class="menu">
+		<ul class="uull">Темы
+			<li><a href="paragraph_1.html">ИНФОРМАЦИОННАЯ БЕЗОПАСНОСТЬ</a></li>
+			<li><a href="paragraph_2.html">ВРЕДОНОСНЫЕ ПРОГРАММЫ</a></li>
+			<li><a href="paragraph_3.html">ЗАЩИТА ОТ ВРЕДОНОСНЫХ ПРОГРАММ</a></li>
+			<li><a href="paragraph_4.html">ШИФРОВАНИЕ</a></li>
+			<li><a href="paragraph_5.html">БЕЗОПАСНОСТЬ В ИНТЕРНЕТЕ</a></li>
+		</ul>
+		<ul class="uull">Задания
+			<li><a href="exercise_1.html">Задания к теме "ИНФОРМАЦИОННАЯ БЕЗОПАСНОСТЬ"</a></li>
+			<li><a href="exercise_2.html">Задания к теме "ВРЕДОНОСНЫЕ ПРОГРАММЫ"</a></li>
+			<li><a href="exercise_3.html">Задания к теме "ЗАЩИТА ОТ ВРЕДОНОСНЫХ ПРОГРАММ"</a></li>
+			<li><a href="exercise_4.html">Задания к теме "ШИФРОВАНИЕ"</a></li>
+			<li><a href="exercise_5.html">Задания к теме "БЕЗОПАСНОСТЬ В ИНТЕРНЕТЕ"</a></li>
+		</ul>
+		
+		</nav>
+		
+		<main>
+		
+		<h1>Задания к теме "ИНФОРМАЦИОННАЯ БЕЗОПАСНОСТЬ"</h1>
+		
+		<div></div>
+		
+		<div>1.Примеры нарушения доступности информации:</div>
+		<div><input type="checkbox" name="name1" value="value1" id="ch1" />оборудование выходит из строя</div>
+		<div><input type="checkbox" name="name2" value="value2" id="ch2"/>информация становится известной тем людям, которые не должны о ней знать</div>
+		<div><input type="checkbox" name="name3" value="value3" id="ch3"/>веб-сайт не отвечает на запросы пользователей в результате массовой атаки вредоносных программ через Интернет</div>
+		<br />
+		<div>2.Примеры нарушения целостности информации:</div>
+		<div><input type="radio" name="name_1" value="value4" id="ch_1"/>информация становится известной тем людям, которые не должны о ней знать</div>
+		<div><input type="radio" name="name_1" value="value5" id="ch_2"/>оборудование выходит из строя</div>
+		<div><input type="radio" name="name_1" value="value6" id="ch_3"/>подделка сообщений электронной почты и других цифровых документов</div>
+		<br />
+		<div>3.Почему при объединении компьютеров в сетьбезопасность снижается?</div>
+		<div><input type="checkbox" name="name4" value="value7" id="ch4"/>в сети работает много пользователей, их состав меняется</div>
+		<div><input type="checkbox" name="name5" value="value8" id="ch5"/>нет возможности незаконного подключения к сети</div>
+		<div><input type="checkbox" name="name6" value="value9" id="ch6"/>возможны атаки взломщиков и вредоносных программ через сеть</div>
+		<div><input type="checkbox" name="name7" value="value10" id="ch7"/>существуют уязвимости в сетевом программном обеспечении</div>
+		<br />
+		<div>4.Самое слабое звено любой системы защиты – это...</div>
+		<div><input type="radio" name="name_2" value="value11" id="ch_4"/>хакер</div>
+		<div><input type="radio" name="name_2" value="value12" id="ch_5"/>компьютер</div>
+		<div><input type="radio" name="name_2" value="value13" id="ch_6"/>слабая операционная система</div>
+		<div><input type="radio" name="name_2" value="value14" id="ch_8"/>человек</div>
+		<div><input type="radio" name="name_2" value="value15" id="ch_9"/>слабое программное обеспечение</div>
+		<br />
+		<div>5.Большинство утечек информации связано с ... – недобросовестными сотрудниками, работающими в фирме</div>
+		<div><input type="radio" name="name_3" value="value16" id="ch_10"/>инсайдерами</div>
+		<div><input type="radio" name="name_3" value="value17" id="ch_11"/>аутсайдерами</div>
+		<div><input type="radio" name="name_3" value="value18" id="ch_12"/>хакерами</div>
+		<br />
+		<div>6.Доступ к каким видам иформации не ограничен согласно Конституции РФ:</div>
+		<div><input type="radio" name="name_4" value="value19" id="ch_13"/>информация, составляющая государственную, коммерческую или банковскую тайну</div>
+		<div><input type="radio" name="name_4" value="value20" id="ch_14"/>персональные данные граждан</div>
+		<div><input type="radio" name="name_4" value="value21" id="ch_15"/>информация о состоянии окружающей среды</div>
+		<br />
+		<br />
+		
+		<p><button type="submit" class="otvet1" id="otvet1" onclick="proverit1()";>Ответить</button><p/>
+		</br>
+		</main>
+		<footer class="foot1">Все материалы взяты из учебника информатики 10 класс</footer>
+		
+	<script>
+	
+	
+	
+	function proverit1(){
+	var chbox1,chbox2,chbox3,chbox4,chbox5,chbox6,chbox7,chbox8,chbox9;
+		chbox1=document.getElementById('ch1');
+		chbox2=document.getElementById('ch3');
+		chbox3=document.getElementById('ch_3');
+		chbox4=document.getElementById('ch4');
+		chbox5=document.getElementById('ch6');
+		chbox6=document.getElementById('ch7');
+		chbox7=document.getElementById('ch_8');
+		chbox8=document.getElementById('ch_10');
+		chbox9=document.getElementById('ch_15');
+		
+		
+		
+		if (chbox1.checked && chbox2.checked) {
+			document.write('<ul style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 30px">1. Вы ответили верно. Правильный ответ:');
+			document.write("<br/><br/>");
+			document.write('<li style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 20px">Примеры нарушения доступности информации:<ul style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 20px">');
+			document.write("<br/>");
+			document.write('<li style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 20px">оборудование выходит из строя</li>');
+			document.write("<br/>");
+			document.write('<li style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 20px">веб-сайт не отвечает на запросы пользователей в результате массовой атаки вредоносных программ через Интернет</li></ul></li></ul>');
+		} else if (chbox1.checked || chbox2.checked){
+			document.write('<ul style="background: linear-gradient(to right, rgba(253,249,215,1) 0%,rgba(240,217,42,1) 100%); font-size: 30px">1. Ответ частично верный. Правильный ответ:');
+			document.write("<br/><br/>");
+			document.write('<li style="background: linear-gradient(to right, rgba(253,249,215,1) 0%,rgba(240,217,42,1) 100%); font-size: 20px">Примеры нарушения доступности информации:<ul style="background: linear-gradient(to right, rgba(253,249,215,1) 0%,rgba(240,217,42,1) 100%); font-size: 20px">');
+			document.write("<br/>");
+			document.write('<li style="background: linear-gradient(to right, rgba(253,249,215,1) 0%,rgba(240,217,42,1) 100%); font-size: 20px">оборудование выходит из строя</li>');
+			document.write("<br/>");
+			document.write('<li style="background: linear-gradient(to right, rgba(253,249,215,1) 0%,rgba(240,217,42,1) 100%); font-size: 20px">веб-сайт не отвечает на запросы пользователей в результате массовой атаки вредоносных программ через Интернет</li></ul></li></ul>');
+		} else {
+			document.write('<ul style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 30px">1. Вы ответили неверно. Правильный ответ:');
+			document.write("<br/><br/>");
+			document.write('<li style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 20px">Примеры нарушения доступности информации:<ul style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 20px">');
+			document.write("<br/>");
+			document.write('<li style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 20px">оборудование выходит из строя</li>');
+			document.write("<br/>");
+			document.write('<li style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 20px">веб-сайт не отвечает на запросы пользователей в результате массовой атаки вредоносных программ через Интернет</li></ul></li></ul>');
+		};
+		
+		document.write("<br/><br/><br/><br/><br/>");
+		
+		if (chbox3.checked) {
+		document.write('<ul style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 30px">2. Вы ответили верно. Правильный ответ:');
+		document.write("<br/><br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 20px">Примеры нарушения целостности информации:<ul style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 20px">');
+		document.write("<br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 20px">подделка сообщений электронной почты и других цифровых документов</li></ul></li></ul>');
+		} else {
+		document.write('<ul style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 30px">2. Вы ответили неверно. Правильный ответ:');
+		document.write("<br/><br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 20px">Примеры нарушения целостности информации:<ul style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 20px">');
+		document.write("<br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 20px">подделка сообщений электронной почты и других цифровых документов</li></ul></li></ul>');
+		};
+		
+		document.write("<br/><br/><br/><br/><br/>");
+		
+		if (chbox4.checked && chbox5.checked && chbox6.checked) {
+		document.write('<ul style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 30px">3. Вы ответили верно. Правильный ответ:');
+		document.write("<br/><br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 20px">Почему при объединении компьютеров в сетьбезопасность снижается?<ul style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 20px">');
+		document.write("<br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 20px">в сети работает много пользователей, их состав меняется</li>');
+		document.write("<br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 20px">возможны атаки взломщиков и вредоносных программ через сеть</li>');
+		document.write("<br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 20px">существуют уязвимости в сетевом программном обеспечении</li></ul></li></ul>');
+		} else if (chbox4.checked || chbox5.checked || chbox6.checked) {
+		document.write('<ul style="background: linear-gradient(to right, rgba(253,249,215,1) 0%,rgba(240,217,42,1) 100%); font-size: 30px">3. Ответ частично верный. Правильный ответ:');
+		document.write("<br/><br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(253,249,215,1) 0%,rgba(240,217,42,1) 100%); font-size: 20px">Почему при объединении компьютеров в сетьбезопасность снижается?/<ul style="background: linear-gradient(to right, rgba(253,249,215,1) 0%,rgba(240,217,42,1) 100%); font-size: 20px">');
+		document.write("<br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(253,249,215,1) 0%,rgba(240,217,42,1) 100%); font-size: 20px">в сети работает много пользователей, их состав меняется</li>');
+		document.write("<br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(253,249,215,1) 0%,rgba(240,217,42,1) 100%); font-size: 20px">возможны атаки взломщиков и вредоносных программ через сеть</li>');
+		document.write("<br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(253,249,215,1) 0%,rgba(240,217,42,1) 100%); font-size: 20px">существуют уязвимости в сетевом программном обеспечении</li></ul></li></ul>');
+		} else {
+		document.write('<ul style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 30px">3. Вы ответили неверно. Правильный ответ:');
+		document.write("<br/><br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 20px">Почему при объединении компьютеров в сетьбезопасность снижается?<ul style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 20px">');
+		document.write("<br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 20px">в сети работает много пользователей, их состав меняется</li>');
+		document.write("<br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 20px">возможны атаки взломщиков и вредоносных программ через сеть</li>');
+		document.write("<br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 20px">существуют уязвимости в сетевом программном обеспечении</li></ul></li></ul>');
+		};
+		
+		document.write("<br/><br/><br/><br/><br/>");
+		
+		if (chbox7.checked) {
+		document.write('<ul style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 30px">4. Вы ответили верно. Правильный ответ:');
+		document.write("<br/><br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 20px">Самое слабое звено любой системы защиты – это человек</li></ul>');
+		} else {
+		document.write('<ul style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 30px">4. Вы ответили неверно. Правильный ответ:');
+		document.write("<br/><br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 20px">Самое слабое звено любой системы защиты – это человек</li></ul>');
+		};
+		
+		document.write("<br/><br/><br/><br/><br/>");
+		
+		if (chbox8.checked) {
+		document.write('<ul style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 30px">5. Вы ответили верно. Правильный ответ:');
+		document.write("<br/><br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 20px">Большинство утечек информации связано с инсайдерами – недобросовестными сотрудниками, работающими в фирме</li></ul>');
+		} else {
+		document.write('<ul style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 30px">5. Вы ответили неверно. Правильный ответ:');
+		document.write("<br/><br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 20px">Большинство утечек информации связано с инсайдерами – недобросовестными сотрудниками, работающими в фирме</li></ul>');
+		};
+		
+		document.write("<br/><br/><br/><br/><br/>");
+		
+		if (chbox9.checked) {
+		document.write('<ul style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 30px">6. Вы ответили верно. Правильный ответ:');
+		document.write("<br/><br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 20px">Доступ к каким видам иформации не ограничен согласно Конституции РФ:<ul style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 20px">');
+		document.write("<br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(211,235,211,1) 1%,rgba(147,219,147,1) 17%,rgba(124,210,124,1) 33%,rgba(119,193,118,1) 44%,rgba(56,181,54,1) 66%,rgba(53,181,25,1) 83%,rgba(11,165,0,1) 100%); font-size: 20px">информация о состоянии окружающей среды</li></ul></li></ul>');
+		} else {
+		document.write('<ul style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 30px">6. Вы ответили неверно. Правильный ответ:');
+		document.write("<br/><br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 20px">Доступ к каким видам иформации не ограничен согласно Конституции РФ:<ul>');
+		document.write("<br/>");
+		document.write('<li style="background: linear-gradient(to right, rgba(255,102,85,1) 0%,rgba(251,39,39,1) 100%); font-size: 20px">информация о состоянии окружающей среды</li></ul></li></ul>');
+		};
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	</script>
+	</body>
+	
+	
+	
+	
+</html>
